@@ -96,31 +96,31 @@ nav{
 
 /* Pillar Section  */
 .pillars_section{
-  margin-top: 50px;
+  margin-top: 70px;
 
 }
 .pillar_cards{
   display: flex;
   justify-content: space-between;
 }
-.pillar_heading h2{
+.common_heading h2{
   font-size: 2rem;
 }
 
-.pillar_card{
+.common_card{
   text-align: start;
   width: 23%;
   background-color: white;
   padding: 20px;
-  margin-top: 50px;
-
+  margin-top: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgb(209, 209, 209);
+  border: 1px solid rgb(216, 216, 216);
 
 }
 
 .pillar_card_content h5{
   margin-top: 5px;
+  color: #242424;
 }
 
 .pillar_card_content p{
@@ -132,11 +132,58 @@ nav{
 
 }
 
+/* Vision Section  */
 
 
 
+.vision_section{
+  margin-top: 70px;
+}
+
+.common_heading p{
+  color: #0E0E0E;
+  opacity: 70%;
+  font-size: 12px;
+  width: 90%;
+  margin-top: 10px;
+}
 
 
+
+.vision_card{
+  width: 32%;
+  background-color: #d9e0ee;
+  border: none;
+}
+.v_card_color_2{
+  background-color: #C6E4D6;
+}
+.v_card_color_3{
+  background-color: #F7EBCF;
+}
+.vision_cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vision_card_btn button{
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  background-color: #5490F5;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+
+.v_card_btn_color1 button{
+  background-color: #09A15C;
+}
+.v_card_btn_color2 button{
+  background-color: #FFC239;
+}
 
 
 
@@ -175,10 +222,10 @@ nav{
   .hero_image{
     width: 90%;
   }
-  .pillar_cards{
-    flex-direction: column-reverse;
+  .pillar_cards, .vision_cards{
+    flex-direction: column;
   }
-  .pillar_card{
+  .common_card{
     width: 100%;
   }
 }
