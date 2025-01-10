@@ -102,7 +102,6 @@ nav{
 .pillar_cards{
   display: flex;
   justify-content: space-between;
-  align-items: ;
 }
 .pillar_heading h2{
   font-size: 2rem;
