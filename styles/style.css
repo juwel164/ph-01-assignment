@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: "Fira Sans", serif;
+  background-color: #F5F5F5;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+/* Nav Section  */
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.nav_logo h2{
+  font-size: 1.7rem;
+}
+
+.nav_btn button{
+  background-color: none;
+  border: 1px solid #006A50;
+  color: #006A50;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.nav_btn button:hover{
+  background-color: #006A50;
+  color: white;
+  transition: 0.2s all ease;
+}
+
+
+/* Hero Section  */
+
+.hero_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C6E4D6;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 25px 0px ;
+
+
+}
+.hero_content{
+  padding-left: 50px;
+}
+.hero_content p{
+  color: #0E0E0E;
+  font-size: 22px;
+}
+
+.hero_content h2{
+  font-size: 2.9rem;
+  margin-top: 5px;
+}
+
+.hero_btn button{
+  padding: 15px 20px;
+  background-color: #006A50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.hero_btn button:hover{
+  background-color: #C6E4D6;
+  color: #006A50;
+  border: 1px solid #006A50;
+  transition: 0.2s all ease;
+}
+
+
+
+
+
+@media screen and (max-width: 740px){
+  nav{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .hero_section{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    gap: 20px;
+
+
+  }
+  .hero_image img{
+    width: 90%;
+  }
+  .hero_content{
+    padding-left: 10px;
+  }
+  .hero_content h2{
+    font-size: 1.6rem;
+  }
+  .hero_content p{
+    font-size: 16px;
+  }
+  .hero_image{
+    width: 90%;
+  }
+}
