@@ -448,6 +448,64 @@ td{
 }
 
 
+/* News Letter section */
+
+
+.newsletter_section{
+  margin-top: 70px;
+  background-color: #C6E4D6;
+  padding: 30px;
+  border-radius: 20px;
+}
+.newsletter_title h2{
+  color: #242424;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.newsletter_title p{
+  color: #0E0E0E;
+  opacity: 80%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.newsletter_input{
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.newsletter_input input{
+  width: 50%;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+.newsletter_input button{
+  width: 12%;
+  background-color: #006A50;
+  color: white;
+  border: none;
+  padding: 0px 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+.newsletter_slogan p{
+  text-align: center;
+  margin-top: 20px;
+  color: #0E0E0E;
+  opacity: 80%;
+}
+
+
+
 
 
 
@@ -518,4 +576,20 @@ td{
 .donate_cards{
   flex-direction: column;
 }
+.newsletter_input{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.newsletter_input input{
+  width: 90%;
+}
+.newsletter_input button{
+  width: 80%;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
 }
