@@ -187,6 +187,20 @@ nav{
   background-color: #FFC239;
 }
 
+.v_card_btn_1 button:hover{
+  background-color: #497dd6;
+  transition: 0.2s all ease;
+}
+
+.v_card_btn_2 button:hover{
+  background-color: #06864d;
+  transition: 0.2s all ease;
+}
+.v_card_btn_3 button:hover{
+  background-color: #e6af2f;
+  transition: 0.2s all ease;
+}
+
 
 
 /* Quote Section  */
@@ -283,9 +297,63 @@ td{
 }
 
 
+/* News Section  */
 
 
+.news_section{
+  margin-top: 70px;
+}
 
+.news_contents{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.news_image{
+  width: 45%;
+}
+.news_image img{
+  border-radius: 15px;
+}
+.news_content{
+  width: 55%;
+}
+
+.news_content h2{
+  color: #0E0E0E;
+  opacity: 80%;
+}
+
+.time{
+  font-size: small;
+  margin-top: 10px;
+  color: #242424;
+}
+.news_content p{
+  font-size: 14px;
+  color: #242424;
+  margin-top: 10px;
+  opacity: 80%;
+  width: 90%;
+}
+
+.news_btn button{
+  background-color: #006A50;
+  padding: 10px 20px;
+}
+
+.news_btn button:hover{
+  background-color: #00523d;
+}
+
+.second_news_content{
+  flex-direction: row-reverse;
+}
 
 
 
@@ -332,5 +400,31 @@ td{
   }
   .common_card{
     width: 100%;
+    
   }
+.opinion_section select{
+     font-size: 12px;
+}
+
+.news_section{
+  width: 85%;
+}
+
+.news_contents{
+  flex-direction: column;
+  padding: 20px;
+}
+
+.news_image img{
+  width: 90%;
+}
+.news_image{
+  width: 100%;
+}
+.news_content{
+  width: 100%;
+}
+.news_content h2{
+  margin-top: 20px;
+}
 }
