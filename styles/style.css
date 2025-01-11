@@ -83,6 +83,7 @@ nav{
   font-size: 12px;
   margin-top: 15px;
   cursor: pointer;
+  border: 1px solid #006A50;
 
 }
 
@@ -124,7 +125,7 @@ nav{
 }
 
 .pillar_card_content p{
-  font-size: 12px;
+  font-size: 14px;
   color: #0E0E0E;
   opacity: 70%;
   text-align: left;
@@ -143,7 +144,7 @@ nav{
 .common_heading p{
   color: #0E0E0E;
   opacity: 70%;
-  font-size: 12px;
+  font-size: 14px;
   width: 90%;
   margin-top: 10px;
 }
@@ -217,8 +218,10 @@ nav{
   margin-top: 30px;
   border: 1px solid rgb(216, 216, 216);
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   padding-left: 20px;
+  padding-bottom: 40px;
+
 }
 
 .quote_content{
@@ -257,6 +260,7 @@ nav{
   margin-top: 40px;
   background-color: white;
   padding: 20px;
+  border-radius: 10px;
 
 
 }
@@ -295,6 +299,7 @@ td{
   background-color: #C6E4D6;
   padding: 10px;
   width: 80%;
+  border-radius: 5px;
 }
 
 .opinion_section .select{
@@ -355,6 +360,8 @@ td{
 
 .news_btn button:hover{
   background-color: #00523d;
+  transition: 0.2s all ease;
+
 }
 
 .second_news_content{
@@ -451,6 +458,7 @@ td{
   color: white;
   border-radius: 5px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 
@@ -475,12 +483,12 @@ td{
   opacity: 80%;
   font-size: 14px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 .newsletter_input{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 0;
@@ -512,7 +520,7 @@ td{
 
 .newsletter_slogan p{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   color: #0E0E0E;
   opacity: 80%;
 }
