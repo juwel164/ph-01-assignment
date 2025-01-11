@@ -154,6 +154,7 @@ nav{
   width: 32%;
   background-color: #d9e0ee;
   border: none;
+  padding: 40px;
 }
 .v_card_color_2{
   background-color: #C6E4D6;
@@ -176,15 +177,20 @@ nav{
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
+  margin-top: 30px;
+
 
 }
 
 
 .v_card_btn_2 button{
   background-color: #09A15C;
+  margin-top: 30px;
 }
 .v_card_btn_3 button{
   background-color: #FFC239;
+  margin-top: 30px;
+
 }
 
 .v_card_btn_1 button:hover{
@@ -456,6 +462,7 @@ td{
   background-color: #C6E4D6;
   padding: 30px;
   border-radius: 20px;
+  padding-bottom: 60px;
 }
 .newsletter_title h2{
   color: #242424;
@@ -494,6 +501,12 @@ td{
   padding: 0px 15px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter_input button:hover{
+  background-color: #005842;
+  transition: 0.2s all ease;
 }
 
 
@@ -504,8 +517,34 @@ td{
   opacity: 80%;
 }
 
+/* Footer Section  */
 
 
+footer{
+  background-color: white;
+  padding: 50px 30px;
+  margin-top: 60px;
+}
+.footer_logo h2{
+  text-align: center;
+  color: #242424;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer_icons img{
+  cursor: pointer;
+
+}
 
 
 
